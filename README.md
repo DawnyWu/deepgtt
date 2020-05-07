@@ -43,7 +43,7 @@ Then, matching the trips
 ```bash
 cd deepgtt/harbin/julia
 
-julia -p 6 mapmatch.jl --inputpath ../data/h5path --outputpath ../data/jldpath
+julia -p 6 mapmatch.jl --inputpath ../../data/h5path --outputpath ../../data/jldpath
 ```
 
 where `6` is the number of cpu cores available in your machine.
